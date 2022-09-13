@@ -1,0 +1,64 @@
+.signIn{
+    background-color:blue;
+    color:white;
+}
+.item1 {
+        grid-area: header; 
+        color:white;
+        background-color: blue;
+        display:grid;
+        align-items: center;
+      }
+.item2 { grid-area: menu;}
+.item3 { grid-area: footer; 
+    color:white;
+    background-color: blue;
+    display:grid;
+  align-items: center;
+}
+
+.backGrey{
+  background-color:grey;
+}
+.grid-container {
+  grid-template-areas:
+    'header'
+    'menu'
+    'footer';
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 6% auto 6%;
+}
+
+
+.grid-container > div {
+  text-align: center;
+}
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width:96%;  
+    margin-left:2%;
+    margin-right:2%
+}
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom:20px;
+  }
+  
+  html, body,.container { height : 100%; }
+  body{
+      margin: 0;
+  }
+  
+  
