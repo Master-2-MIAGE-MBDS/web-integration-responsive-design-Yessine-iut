@@ -54,8 +54,14 @@ input[type=text], select {
     border-radius: 4px;
     cursor: pointer;
     margin-bottom:20px;
+    margin-left:30%;
+    margin-right: 30%;
   }
-  
+  .flexibleClass{
+    display:flex;
+    flex-direction: column;
+
+  }
   html, body,.container { height : 100%; }
   body{
       margin: 0;
